@@ -10,10 +10,18 @@
 	# Creating a Playstation.desktop file to show up on Docker
 	# Download PCSX2 Bios, exctract, and put on PCSX2's Bios directory
 
-VERSION=v2.1.26
+VERSION=v2.1.74
 BIOS_LINK=https://fantasyanime.com/files0219/emulators/pcsx2_bio._ip
 
-# Dependecy needed to extract files
+# Emulator Dependencies
+
+sudo dpkg --add-architecture i386
+
+# sudo apt install libgl1-mesa-dri:i386 libaio1t64:i386 libasound2t64:i386 libc6:i386 libfreetype6:i386 libgcc-s1:i386 libgdk-pixbuf-2.0-0:i386 libglib2.0-0t64:i386 libglx0:i386 libgtk-3-0t64:i386 liblzma5:i386 libopengl0:i386 libpng16-16t64:i386 libportaudio2:i386 libsdl2-2.0-0:i386 libsoundtouch1:i386 libstdc++6:i386 libudev1:i386 libwxbase3.2-1t64:i386 libwxgtk3.2-1t64:i386 libx11-6:i386 zlib1g:i386 libasound2-plugins:i386 libc6-i686:i386
+
+sudo apt install libgl1-mesa-dri libaio1t64 libasound2t64 libc6 libfreetype6 libgcc-s1 libgdk-pixbuf-2.0-0 libglib2.0-0t64 libglx0 libgtk-3-0t64 liblzma5 libopengl0 libpng16-16t64 libportaudio2 libsdl2-2.0-0 libsoundtouch1 libstdc++6 libudev1 libwxbase3.2-1t64 libwxgtk3.2-1t64 libx11-6 zlib1g libasound2-plugins -y
+
+# Dependecies needed to extract files and run AppImage Files.
 
 FILE_ROLLER=/usr/bin/file-roller
 
