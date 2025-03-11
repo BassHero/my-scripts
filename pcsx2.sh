@@ -10,7 +10,7 @@
 	# Creating a Playstation.desktop file to show up on Docker
 	# Download PCSX2 Bios, exctract, and put on PCSX2's Bios directory
 
-VERSION=v2.3.107
+VERSION=v2.3.212
 BIOS_LINK=https://fantasyanime.com/files0219/emulators/pcsx2_bio._ip
 
 # Emulator Dependencies
