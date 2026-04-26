@@ -7,7 +7,7 @@
 # CONFIGURAÇÕES GERAIS
 # ========================
 
-VERSION="v2.5"
+VERSION="v2.6"
 FLYCAST_APPIMAGE_URL="https://github.com/flyinghead/flycast/releases/download/$VERSION/flycast-x86_64.AppImage"
 FLYCAST_WIN_URL="https://github.com/flyinghead/flycast/releases/download/$VERSION/flycast-win64-2.5.zip"
 
